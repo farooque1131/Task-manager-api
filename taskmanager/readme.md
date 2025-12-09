@@ -75,9 +75,10 @@ env\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 4. Apply Migrations
+pthon manage.py makemigrations
 python manage.py migrate
 
-5. Run Server
+6. Run Server
 python manage.py runserver
 
 - API Endpoints Documentation
